@@ -8,11 +8,11 @@ To write a program to predict the profit of a city using the linear regression m
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
-1. 
-2. 
-3. 
-4. 
-
+1. reprocess Data: Normalize the input data X (cities' data points).
+2.Initialize Variables: Set initial values for m (slope) and b (intercept). 
+3. Set Learning Rate: Define the learning rate for gradient descent (e.g., 0.01).
+4. Gradient Descent Loop: Update m and b iteratively by adjusting them using the gradient descent algorithm over 1000 iterations.
+5.redict Profit: Once the gradient descent converges, use the optimized values of m and b to predict the profit for the city.
 ## Program:
 ```
 /*
